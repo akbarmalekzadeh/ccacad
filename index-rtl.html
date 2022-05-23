@@ -1,0 +1,527 @@
+<!doctype html>
+<html class="no-js" lang="per">
+
+<head>
+  <meta charset="utf-8">
+  <title>صفحه اصلی | C+C</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="./img/logo1.png">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="./css/fontiran.css">
+  <link rel="stylesheet" href="./css/fontiran-fanum.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <meta name="theme-color" content="#fafafa">
+  <!-- Demo styles -->
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- In the name of god -->
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-light main-header" id="headerScroll">
+    <div class="container">
+      <div class="main-header-content">
+        <a class="logo header-logo" href="./index-rtl.html">
+          <figure><img src="./img/logo1.png" alt="logo"></figure>
+        </a>
+        <button class="sidebar-btn" onclick="openSidebar()"><i class="fal fa-bars"></i></button>
+        <div class="sidebar" id="sidebar">
+          <span id="closeup-btn" onclick="closeSidebar()"><i class="fal fa-times"></i></span>
+          <ul class="navbar-nav mb-2 mb-lg-0 header-list">
+            <li class="nav-item header-item">
+              <span>زبان ها <i class="fal fa-chevron-down"></i></span>
+              <ul class="header-dropdown">
+                <li><a href="./language-english-rtl.html">
+                    <figure><img src="./img/england-flag.png" alt="lanuage-flag"></figure>انگلیسی
+                  </a></li>
+                <li><a href="./language-french-rtl.html">
+                    <figure><img src="./img/france-flag.png" alt="lanuage-flag"></figure>فرانسوی
+                  </a></li>
+                <li><a href="./language-turkish-rtl.html">
+                    <figure><img src="./img/turkey-flag.webp" alt="lanuage-flag"></figure>ترکی
+                  </a></li>
+                <li><a href="./language-germany-rtl.html">
+                    <figure><img src="./img/germany-flag.png" alt="lanuage-flag"></figure>آلمانی
+                  </a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item header-item">
+              <span>مشاوره<i class="fal fa-chevron-down"></i></span>
+              <ul class="header-dropdown">
+                <li><a href="./consult-rtl.html">آزمون های بین المللی</a></li>
+                <li><a href="./consult-rtl.html">استخدام</a></li>
+                <li><a href="./consult-rtl.html">مهاجرت</a></li>
+                <li><a href="./consult-rtl.html">تقویت رزومه</a></li>
+              </ul>
+            </li>
+            <li class="nav-item header-item">
+              <a href="./about-us-rtl.html">درباره ما</a>
+            </li>
+            <li class="nav-item header-item">
+              <a href="./contact-us-rtl.html">تماس با ما</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-signup-box">
+          <div class="user-header-panel-box">
+            <a href="./user-panel-rtl.html" class="header-panel-link"><i class="fad fa-user"></i>مهدی حبیبی
+              نظرلو</a>
+            <div class="header-panel-popup">
+              <div class="header-panel-user-info">
+                <figure class="header-user-img"><img src="./img/mahdi-habibi.jpg" alt="User"></figure>
+                <span>کاربر عزیز، خوش آمدید!</span>
+              </div>
+              <ul class="header-panel-popup-list">
+                <li>
+                  <a href="./user-panel-rtl.html#userPanelDashboard"><i class="fal fa-user"></i>داشبورد</a>
+                </li>
+                <li>
+                  <a href="./user-panel-rtl.html#userPanelUserInfo"><i class="fal fa-users-class"></i>کلاس
+                    ها</a>
+                </li>
+                <li>
+                  <a href="./user-panel-rtl.html#userPanelWallet"><i class="fal fa-wallet"></i>کیف پول</a>
+                </li>
+                <li>
+                  <a href="./index-rtl.html"><i class="fal fa-sign-out"></i>خروج از حساب</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="./login-rtl.html" class="login-btn">ورود</a>
+          <a href="./register-rtl.html" class="signup-btn">ثبت نام</a>
+          <div class="contact-us-box">
+            <a href="tel:+989300670744" class="contact-us"><i class="fal fa-phone-volume"></i></a>
+            <div class="contact-us-popup"><span>پشتیبانی تلفنی ۲۴ ساعته</span><a href="tel:+989300670744">+989300670744</a>
+            </div>
+          </div>
+          <a href="./tutor-register-rtl.html" class="tutor-signup-btn">ثبت نام استاد</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- main box -->
+  <div class="main-box">
+    <div class="container">
+      <div class="main-box-content">
+        <h1 class="head-title">سی پلاس سی، مسیری برای هدف هایتان</h1>
+        <p>ارائه جلسات معرفی و تعیین سطح برای زبان آموزان به صورت رایگان </p>
+        <a href="#" class="class-signup-btn">change to English</a>
+        <div class="scroll-down"></div>
+      </div>
+    </div>
+  </div>
+  <!-- about us -->
+  <div class="about-us-box">
+    <div class="container">
+      <div class="row flex-row flex-lg-row flex-md-column">
+        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+          <div class="about-us">
+            <h3 class="about-us-title">با ما بهترین ها را با مناسب ترین هزینه در اختیار داشته باشید
+            </h3>
+            <p>آکادمی سی پلاس سی به وجود آمده تا با روش های روز دنیا بهترین آموزه ها را در اختیار
+              زبان آموزان قرار بدهد. ما در تلاش هستیم تا با گردآوری کادری مطرح و مجرب آموزشی کامل
+              و دقیقی به زبان آموزان ارائه دهیم.</p>
+            <p>علاوه بر آموزش زبان های زنده دنیا، این امکان نیز وجود دارد که از خدمات ویژه این
+              آکادمی بهره مند شوید</p>
+            <a href="./about-us-rtl.html" class="about-us-read-more">بیشتر بخوانید<i
+                class="fal fa-arrow-left"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="about-us-video">
+            <figure class="about-us-img"><img src="./img/about-us.jpg" alt="about us"></figure>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn about-us-play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fal fa-play"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade about-us-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content about-us-modal-content">
+                  <div class="modal-body about-us-modal-body">
+                    <video id="modalVideo" class="about-us-popup-video" controls="controls" autoplay="autoplay">
+                      <source src="./video/voice Film.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- languages -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <h2 class="page-header d-flex justify-content-center">زبان ها</h2>
+      </div>
+      <div class="col-md-6">
+        <div class="lang-box">
+          <div class="lang-box-header">
+            <figure class="lang-img"><img src="./img/england-flag.png" alt="English"></figure>
+            <h3 class="lang-title"><a href="./language-english-rtl.html">انگلیسی</a></h3>
+          </div>
+          <p>انگلیسی در بسیاری از کشورها زبان میانجی است و مهم‌ترین زبان جهان در زمینه‌های سیاست، اقتصاد، صنعت، فرهنگ و
+            علم در روابط بین‌الملل به‌شمار می‌آید. این زبان جزو زبان‌های رسمی سازمان ملل متحد است و نظام آموزشی بیش‌تر
+            کشورها مشغول به تدریس آن هستند.</p>
+          <a href="./language-english-rtl.html" class="go-to-page"><i class="fal fa-arrow-left"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="lang-box">
+          <div class="lang-box-header">
+            <figure class="lang-img"><img src="./img/france-flag.png" alt="English"></figure>
+            <h3 class="lang-title"><a href="./language-french-rtl.html">فرانسوی</a></h3>
+          </div>
+          <p>فرانسوی یکی از شش زبان رسمی سازمان ملل متحد، یکی از دو زبانِ کاری این سازمان (همراه با انگلیسی) و زبان کاری
+            یا رسمی سازمان‌های متعدد بین‌المللی یا محلی، از جمله، اتحادیه اروپا می‌باشد. فرانسوی، زبانی است کاملاً علمی
+            و دانشگاهی، و امروزه همچنان، پس از انگلیسی، یکی از مهم‌ترین زبان‌های دیپلماتیک به‌شمار می‌رود.</p>
+          <a href="./language-french-rtl.html" class="go-to-page"><i class="fal fa-arrow-left"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="lang-box">
+          <div class="lang-box-header">
+            <figure class="lang-img"><img src="./img/turkey-flag.webp" alt="English"></figure>
+            <h3 class="lang-title"><a href="./language-turkish-rtl.html">ترکی</a></h3>
+          </div>
+          <p>زبان ترکی رایج‌ترین زبان از شاخهٔ زبان‌های ترکی می‌باشد. جغرافیای آن ترکیه و قبرس شمالی و بخش‌هایی از عراق،
+            یونان، بلغارستان، مقدونیه شمالی، کوزوو، آلبانی و دیگر بخش‌های شرقی اروپا را در بر می‌گیرد. سالانه جمعیت
+            بسیاری نیز از ترکیه به غرب اروپا و به ویژه آلمان مهاجرت می‌کنند که موجب گفتگوی ترکی در آن مناطق می‌گردد.</p>
+          <a href="./language-turkish-rtl.html" class="go-to-page"><i class="fal fa-arrow-left"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="lang-box">
+          <div class="lang-box-header">
+            <figure class="lang-img"><img src="./img/germany-flag.png" alt="English"></figure>
+            <h3 class="lang-title"><a href="./language-germany-rtl.html">آلمانی</a></h3>
+          </div>
+          <p>آلمانی در آلمان، اتریش، سوئیس، تیرول جنوبی ایتالیا، جامعه آلمانی زبان بلژیک و لیختن‌اشتاین پرگویشورترین
+            زبان و رسمی است. این زبان همچنین یکی از زبان‌های رسمی لوکزامبورگ و استان اوپوله لهستان نیز به‌شمار می‌رود.
+            آلمانی همچنین پس از انگلیسی و فرانسوی سومین زبان خارجی و از نظر گویشوران کل، دومین زبان بزرگ در اتحادیه
+            اروپا است.</p>
+          <a href="./language-germany-rtl.html" class="go-to-page"><i class="fal fa-arrow-left"></i></a>
+        </div>
+      </div>
+      <!-- <div class="col-md-12 d-flex justify-content-center"><a href="#" class="show-more-link">بیشتر ببینید</a></div> -->
+    </div>
+  </div>
+  <!-- tutors -->
+  <div class="container">
+    <div class="tutors">
+      <h2 class="page-header d-flex justify-content-center">اساتید</h2>
+      <!-- Swiper -->
+      <div class="swiper tutorsSwiper p-2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <article class="tutor-prof">
+              <header class="tutor-prof-header">
+                <a href="./tutor-rtl(mahdi-habibi-nazarlu).html" class="tutor-pfp">
+                  <figure><img src="./img/mahdi-habibi.jpg" alt="profile"></figure>
+                </a>
+                <h3 class="tutor-name"><a href="./tutor-rtl(mahdi-habibi-nazarlu).html">مهدی حبیبی نظرلو</a></h3>
+                <span class="tutor-cat">زبان <a href="./language-english-rtl.html">انگلیسی</a> و <a
+                    href="./language-turkish-rtl.html">ترکی</a></span>
+              </header>
+              <span class="class-lvl">سطح:<span>مبتدی، پیشرفته</span></span>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="tutor-prof">
+              <header class="tutor-prof-header">
+                <a href="./tutor-rtl(akbar-malekzadeh).html" class="tutor-pfp">
+                  <figure><img src="./img/akbar-malekzadeh.jpeg" alt="profile"></figure>
+                </a>
+                <h3 class="tutor-name"><a href="./tutor-rtl(akbar-malekzadeh).html">اکبر ملک زاده</a></h3>
+                <span class="tutor-cat"><a href="./language-turkish-rtl.html">زبان ترکی</a></span>
+              </header>
+              <span class="class-lvl">سطح:<span>مبتدی، پیشرفته</span></span>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="tutor-prof">
+              <header class="tutor-prof-header">
+                <a href="./tutor(roqhaye-maqhsoudi).html" class="tutor-pfp">
+                  <figure><img src="./img/roqhaye-maqhsoudi2.jpeg" alt="profile"></figure>
+                </a>
+                <h3 class="tutor-name"><a href="./tutor(roqhaye-maqhsoudi).html">رقیه مقصودی</a></h3>
+                <span class="tutor-cat"><a href="language-germany-rtl.html">زبان آلمانی</a></span>
+              </header>
+              <span class="class-lvl">سطح:<span>مبتدی، پیشرفته</span></span>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="tutor-prof">
+              <header class="tutor-prof-header">
+                <a href="./tutor-rtl(ayda-rabiee).html" class="tutor-pfp">
+                  <figure><img src="./img/ayda-rabiee.jpg" alt="profile"></figure>
+                </a>
+                <h3 class="tutor-name"><a href="./tutor-rtl(ayda-rabiee).html">آیدا ربیعی</a></h3>
+                <span class="tutor-cat"><a href="./language-french-rtl.html">زبان فرانسوی</a></span>
+              </header>
+              <span class="class-lvl">سطح:<span>مبتدی، پیشرفته</span></span>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="tutor-prof">
+              <header class="tutor-prof-header">
+                <a href="./tutor-rtl(samin-aboulhazanzadeh).html" class="tutor-pfp">
+                  <figure><img src="./img/samin-abulhasanzadeh.jpg" alt="profile"></figure>
+                </a>
+                <h3 class="tutor-name"><a href="./tutor-rtl(samin-aboulhazanzadeh).html">ثمین ابوالحسن زاده</a></h3>
+                <span class="tutor-cat"><a href="./language-english-rtl.html">زبان انگلیسی</a></span>
+              </header>
+              <span class="class-lvl">سطح:<span>مبتدی، پیشرفته</span></span>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next next1"></div>
+      <div class="swiper-button-prev prev1"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-- why us -->
+  <div class="why-us">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <h3 class="why-us-title">چرا ما؟</h3>
+        </div>
+        <div class="col-md-6">
+          <div class="why-us-content">
+            <h4 class="why-us-content-title">آکادمی در سطح بین المللی</h4>
+            <p>آکادمی ما در تلاش است تا فرصت آموزش را برای زبان آموزان از هر زبان ایجاد کند.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="why-us-content">
+            <h4 class="why-us-content-title">فرصت اپلای برای زبان آموزان</h4>
+            <p>ما می توانیم برای شما علاوه بر زبان آموزی، زمینه مهاجرت را برای هر هدفی مهیا کنیم.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="why-us-content">
+            <h4 class="why-us-content-title">آموزش زبان های متعدد</h4>
+            <p>.آکادمی سی پلاس سی در نظر دارد با افزایش زبان های آموزشی، امکان آموزش زبان دلخواهتان برایتان فراهم کند
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="why-us-content">
+            <h4 class="why-us-content-title">اساتید مطرح از سراسر دنیا</h4>
+            <p>آکادمی ما اساتید مطرح بومی را کنار هم جمع کرده تا آموزشی کاملی برای شما ارائه بدهد.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- blogs -->
+  <!-- <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <h2 class="page-header d-flex justify-content-center">بلاگ ها</h2>
+      </div>
+      <div class="col-md-6">
+        <article class="blogs">
+          <header class="blog-article-header">
+            <a href="./inner-blog-rtl.html">
+              <figure class="blog-article-img"><img src="./img/blog-img.jpg" alt="blog image"></figure>
+            </a>
+            <h3 class="blog-article-title"><a href="./inner-blog-rtl.html">بلاگ</a></h3>
+            <div class="blog-info">
+              <ul class="blog-date">
+                <li>17</li>
+                <li>آذر</li>
+                <li>1400</li>
+              </ul>
+            </div>
+          </header>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+            بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+            با هدف بهبود ابزارهای کاربردی می باشد ...</p>
+        </article>
+      </div>
+      <div class="col-md-6">
+        <article class="blogs">
+          <header class="blog-article-header">
+            <a href="./inner-blog-rtl.html">
+              <figure class="blog-article-img"><img src="./img/blog-img.jpg" alt="blog image"></figure>
+            </a>
+            <h3 class="blog-article-title"><a href="./inner-blog-rtl.html">بلاگ</a></h3>
+            <div class="blog-info">
+              <ul class="blog-date">
+                <li>17</li>
+                <li>آذر</li>
+                <li>1400</li>
+              </ul>
+            </div>
+          </header>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+            بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+            با هدف بهبود ابزارهای کاربردی می باشد ...</p>
+        </article>
+      </div>
+      <div class="col-md-6">
+        <article class="blogs">
+          <header class="blog-article-header">
+            <a href="./inner-blog-rtl.html">
+              <figure class="blog-article-img"><img src="./img/blog-img.jpg" alt="blog image"></figure>
+            </a>
+            <h3 class="blog-article-title"><a href="./inner-blog-rtl.html">بلاگ</a></h3>
+            <div class="blog-info">
+              <ul class="blog-date">
+                <li>17</li>
+                <li>آذر</li>
+                <li>1400</li>
+              </ul>
+            </div>
+          </header>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+            بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+            با هدف بهبود ابزارهای کاربردی می باشد ...</p>
+        </article>
+      </div>
+      <div class="col-md-12 d-flex justify-content-center"><a href="./blogs-rtl.html" class="show-more-link">بیشتر بخوانید</a></div>
+    </div>
+  </div> -->
+  <!-- footer -->
+  <div class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 d-flex d-sm-flex flex-column flex-lg- flex-sm-column align-items-center">
+                <a href="./index-rtl.html" class="logo footer-logo">
+                    <figure><img src="./img/logo1.png" alt="logo"></figure>
+                </a>
+                <div class="social-list">
+                    <span>ما را در شبکه های اجتماعی دنبال کنید</span>
+                    <ul>
+                        <li><a href="https://twitter.com/C_cAcademy" class="twitter-link" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/C_cAcademy" class="instagram-link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/cpc-academy" class="linkedin-link" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCAZDGTchCUdC2IKAz7BLvTA" class="youtube-link" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#" class="facebook-link"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://t.me/c_cacademy" class="telegram-link" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                    </ul>
+                </div>
+                <span class="contact-support">پشتیبانی تلفنی 24 ساعته: <a
+                        href="tel:+989300670744">+989300670744</a></span>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 d-flex justify-content-center">
+                <div class="footer-list">
+                    <h5 class="footer-list-title">دسترسی سریع</h5>
+                    <ul>
+                        <li><a href="./tutor-register-rtl.html">جذب استاد</a></li>
+                        <li><a href="./contact-us-rtl.html">تماس با ما</a></li>
+                        <li><a href="./about-us-rtl.html">درباره ما</a></li>
+                        <li><a href="./blogs-rtl.html">وبلاگ</a></li>
+                        <li><a href="./terms-rtl.html">قوانین و مقررات</a></li>
+                        <li><a href="./faq-rtl.html">سوالات متداول</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 d-flex justify-content-center">
+                <div class="footer-list">
+                    <h5 class="footer-list-title">زبان های آموزشی</h5>
+                    <ul>
+                        <li><a href="./language-english-rtl.html">زبان انگلیسی</a></li>
+                        <li><a href="./language-french-rtl.html">زبان فرانسوی</a></li>
+                        <li><a href="./language-turkish-rtl.html">زبان ترکی</a></li>
+                        <li><a href="./language-germany-rtl.html">زبان آلمانی</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="col-md-3 d-flex justify-content-between align-items-center flex-lg-row flex-md-column justify-content-sm-center">
+                <figure class="enamad-smandehi"><img src="./img/eNAMAD.png" alt="eNAMAD"></figure>
+                <figure class="enamad-smandehi"><img src="./img/samandehi.png" alt="samandehi"></figure>
+            </div>
+            <div class="col-md-12">
+                <div class="copyright">
+                    <p>تمامی حقوق این پلتفرم متعلق به آکادمی سی پلاس سی است</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
